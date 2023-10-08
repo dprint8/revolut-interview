@@ -8,5 +8,10 @@ variable "region" {
 
 variable "tags" {
   description = "Tags applied to all taggable resources by the provider"
-  type        = map(string) 
+  type        = map(string)
+}
+
+variable "version" {
+  description = "The version tag off the app"
+  type        = number
 }

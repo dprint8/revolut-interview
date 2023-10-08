@@ -7,3 +7,5 @@ tags = {
   CreatedBy   = "terraform"
   Team        = "example"
 }
+
+version = 1.0
