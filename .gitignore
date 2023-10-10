@@ -1,0 +1,14 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore SQLite database file (if generated during development)
+app/*.db
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-related files
+app/venv/
+app/.venv/
