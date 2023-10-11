@@ -1,3 +1,3 @@
-resource "aws_ecr_repository" "repository" {
+resource "aws_ecr_repository" "hometask" {
   name = "app-repo"
 }

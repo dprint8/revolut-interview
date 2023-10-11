@@ -1,5 +1,5 @@
 variable "account_id" {
-    description = "Deployment AWS account id"
+  description = "Deployment AWS account id"
 }
 
 variable "region" {
@@ -11,7 +11,12 @@ variable "tags" {
   type        = map(string)
 }
 
-variable "version" {
+variable "app_version" {
   description = "The version tag off the app"
   type        = number
+}
+
+variable "availability_zones" {
+  description = "List of AZs for subnets"
+  type        = list(string)
 }
